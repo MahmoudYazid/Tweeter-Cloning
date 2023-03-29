@@ -1,0 +1,167 @@
+.RightSideClass{
+    background-color: rgb(0, 0, 0);
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.Box{
+    
+     background-color: rgb(0, 0, 0);
+    max-width: 75%;
+    height: 44vh;
+    margin-top: 3%;
+    border: 1px solid gray;
+    border-radius: 20px;
+    display: grid;
+    grid-template-rows: .7fr .5fr .6fr .6fr .6fr 1fr ;
+    
+    
+
+}
+.NewOnTweeterText{
+    color: white;
+    padding-left: 1rem;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 1rem;
+    display: inline-block;
+
+
+}
+.NewOnTweeterSubText{
+    color: gray;
+    bottom:0rem;
+    margin-bottom: 0rem;
+    position: relative;
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    height: 2rem;
+    font-weight: bolder;
+
+    
+}
+.GoogleIcon{
+    width: 2.5rem;
+  max-width: 2.5rem;
+  height: 3rem;
+
+    margin-right: .5rem;
+    
+}
+.SignBtm{
+
+    
+    display: flex;
+    flex-direction: row;
+    margin-right: 1rem;
+    max-width: 30rem;
+    height: 4rem;
+    background-color: rgb(255,255,255);
+    margin-left: 2.5rem;
+    border-radius: 30px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: .1rem;
+
+   
+}
+.SignBtm:hover{
+
+    
+    display: flex;
+    flex-direction: row;
+    margin-right: 1rem;
+    max-width: 30rem;
+    height: 4rem;
+    background-color: rgb(234, 232, 232);
+    margin-left: 2.5rem;
+    border-radius: 30px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: .1rem;
+    cursor: pointer;
+
+   
+}
+.FooterText{
+    color: gray;
+    bottom: 1.5rem;
+    position: relative;
+    padding-left: 1rem;
+    margin-top: 2rem;
+    font-size: .9rem;
+    text-align: left;
+    margin-left: 1rem;
+    font-size: 1.4rem;
+    margin-right: 1rem;
+
+}
+
+.SignBtm p{
+    font-weight: bolder;
+    font-size: 1.2rem;
+
+}
+.FooterText p{
+    color: cornflowerblue;
+    display: inline;
+
+
+}
+.FooterText p:hover{
+    color: cornflowerblue;
+    display: inline;
+    text-decoration: underline;
+    cursor: pointer;
+
+
+}
+.SmallDialog{
+    margin-left: 3rem;
+     background-color: rgb(0, 0, 0);
+    max-width: 60%;
+    height: 5vh;
+    margin-top: 1rem;
+
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+  
+     flex-wrap: wrap;
+    color: white;
+  
+
+    
+
+
+}
+.SmallDialog  p{
+    color: gray;
+    margin-left: 1rem;
+    align-self: center;
+    display: inline;
+    border-width: .1rem;
+    font-size: 1.3rem;
+
+    
+
+}
+.SmallDialog  p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: gray;
+    align-self: center;
+    display: inline;
+    border-width: .1rem;
+    font-size: 1.3rem;
+    
+
+}
+@media  screen and (max-width:966px) {
+    .RightSideClass{
+        visibility: hidden;
+        position: absolute;
+    }
+    
+}
