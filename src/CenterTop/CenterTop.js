@@ -35,19 +35,25 @@ export default function CenterTop() {
     document.getElementById("textSearchOutput").style.visibility="hidden";
   }
   return (
-    <div className="SearchNav" onClick={OnfocusOut}>
+    <div className="SearchNav">
       <SlSocialTwitter className="SlSocialTwitter"></SlSocialTwitter>
       <div
         className="InputDiv"
         id="SearchNav"
         onClick={changeColourOnFocus}
         onChange={changeColourOnFocus}
+        onBlur={OnfocusOut}
       >
         <AiOutlineSearch
           className="AiOutlineSearch"
           id="AiOutlineSearch"
         ></AiOutlineSearch>
-        <div className="inputContainer" id="inputContainer">
+        <div
+          className="inputContainer"
+          id="inputContainer"
+          onClick={changeColourOnFocus}
+          onFocus={changeColourOnFocus}
+        >
           <input
             type="text"
             className="TextInput"
@@ -89,9 +95,6 @@ export default function CenterTop() {
                 MainDev.style.borderStyle = "none";
                 const inputdevcontrol = document.getElementById("SearchNav");
                 inputdevcontrol.style.height = "4rem";
-                const AiOutlineSearchControl =
-                  document.getElementById("AiOutlineSearch");
-                AiOutlineSearchControl.style.color = "#71767b";
 
                 document.getElementById("textSearchOutput").style.visibility =
                   "hidden";
