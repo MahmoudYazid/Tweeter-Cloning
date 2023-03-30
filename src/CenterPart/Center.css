@@ -1,0 +1,5 @@
+.MainCenterPart{
+    background-color: green;
+    display: grid;
+    grid-template-rows: .9fr 5fr;
+}

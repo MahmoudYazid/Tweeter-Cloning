@@ -1,0 +1,88 @@
+.SearchNav{
+    background-color: black ;
+    display: grid;
+    grid-template-columns:1fr 5fr 1fr;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+}
+.InputDiv{
+  display: grid;
+  grid-template-columns: .2fr 3fr;
+    width: 90%;
+    height: 3.8rem;
+    align-self: center;
+    border-radius: 25px;
+    background-color: #202327;
+
+}
+.TextInput{
+    margin-left: 1rem;
+    height: 3.1rem;
+    margin-top: .1rem;
+
+    max-width: 80%;
+    background-color: #202327;
+    border-width: 0px;
+    border-radius: 25px;
+    color: white;
+
+
+    
+}
+.TextInput:focus{
+    outline: none;
+    
+}
+.AiOutlineSearch{
+    margin-top: .4rem;
+    margin-left: .5rem;
+    width: 3rem;
+    height: 3rem;
+    color: #71767b;
+    z-index: 2;
+
+}
+.inputContainer{
+
+    max-width: 40rem;
+    margin-top: .1rem;
+
+    border-radius: 25px;
+    z-index: 1;
+}
+.GrSettingsOption{
+  
+    margin-right: 5rem;
+    width: 3rem;
+    height: 3rem;
+    color: white;
+    z-index: 2;
+}
+
+.SlSocialTwitter{margin-top: .4rem;
+    margin-left: 3rem;
+    width: 5rem;
+    height: 5rem;
+    color: #71767b;
+    z-index: 2;
+    visibility: hidden;
+}
+@media  screen and (max-width:479px) {
+    .SlSocialTwitter{margin-top: .4rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    width: 5rem;
+    height: 5rem;
+    color: white;
+    z-index: 2;
+    visibility: visible;
+}
+    
+}
+.LinkClass{
+    font-size: 1.5rem;
+    color: whitesmoke;
+    text-decoration: none;
+}
