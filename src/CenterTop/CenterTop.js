@@ -62,10 +62,10 @@ export default function CenterTop() {
             placeholder="Mahmoud Or Amir"
             onChange={(e) => {
               if (
-                e.target.value == "amir" ||
-                e.target.value == "am" ||
-                e.target.value == "ami" ||
-                e.target.value == "a"
+                e.target.value === "amir" ||
+                e.target.value === "am" ||
+                e.target.value === "ami" ||
+                e.target.value === "a"
               ) {
                 document.getElementById("textSearchOutput").style.visibility =
                   "visible";
@@ -74,13 +74,13 @@ export default function CenterTop() {
                 ChangeName("amir");
               }
               if (
-                e.target.value == "mahmoud" ||
-                e.target.value == "ma" ||
-                e.target.value == "mah" ||
-                e.target.value == "mahm" ||
-                e.target.value == "mahmo" ||
-                e.target.value == "mahmou" ||
-                e.target.value == "m"
+                e.target.value === "mahmoud" ||
+                e.target.value === "ma" ||
+                e.target.value === "mah" ||
+                e.target.value === "mahm" ||
+                e.target.value === "mahmo" ||
+                e.target.value === "mahmou" ||
+                e.target.value === "m"
               ) {
                 document.getElementById("textSearchOutput").style.visibility =
                   "visible";
@@ -89,7 +89,7 @@ export default function CenterTop() {
                 ChangeName("mahmoud");
               }
 
-              if (e.target.value.length == 0) {
+              if (e.target.value.length === 0) {
                 const MainDev = document.getElementById("SearchNav");
                 MainDev.style.borderWidth = "0px";
                 MainDev.style.borderColor = "none";
@@ -104,7 +104,7 @@ export default function CenterTop() {
             }}
           ></input>
           <p id="textSearchOutput" style={{ visibility: "hidden" }}>
-            {Name == "amir" ? (
+            {Name === "amir" ? (
               <a href="https://github.com/AmirMohamed1" className="LinkClass">
                 Amir : frontend developer
               </a>
