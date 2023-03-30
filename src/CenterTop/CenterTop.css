@@ -21,12 +21,13 @@
     margin-left: 1rem;
     height: 3.1rem;
     margin-top: .1rem;
-
+    min-width: 60%;
     max-width: 80%;
     background-color: #202327;
     border-width: 0px;
     border-radius: 25px;
     color: white;
+
 
 
     

@@ -40,9 +40,8 @@ export default function CenterTop() {
       <div
         className="InputDiv"
         id="SearchNav"
-        onClick={changeColourOnFocus}
-        onChange={changeColourOnFocus}
-        onBlur={OnfocusOut}
+       
+      onFocus={OnfocusOut}
       >
         <AiOutlineSearch
           className="AiOutlineSearch"
@@ -51,12 +50,14 @@ export default function CenterTop() {
         <div
           className="inputContainer"
           id="inputContainer"
-          onClick={changeColourOnFocus}
-          onFocus={changeColourOnFocus}
+        
+          
+          onBlur={OnfocusOut}
         >
           <input
             type="text"
             className="TextInput"
+            onClick={changeColourOnFocus}
             onFocus={changeColourOnFocus}
             placeholder="Mahmoud Or Amir"
             onChange={(e) => {
