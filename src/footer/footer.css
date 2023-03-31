@@ -1,0 +1,200 @@
+.MainFooterContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #1d9bf0;
+    direction: rtl;
+}
+.SignupBtmfooter{
+
+    
+    display: flex;
+    flex-direction: row;
+    margin-right: 20rem;
+    margin-top: 1rem;
+    min-width: 10rem;
+    max-width: 10rem;
+    height: 4rem;
+    background-color: rgb(255,255,255);
+    margin-left: 2.5rem;
+    border-radius: 25px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: .1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+
+
+   
+}
+.SignupBtmfooter:hover{
+
+    
+   
+    background-color: rgb(234, 233, 233);
+
+
+   
+}
+
+
+.loginfooter{
+
+    
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 1rem;
+    min-width: 10rem;
+    max-width: 10rem;
+    height: 4rem;
+    background-color:transparent;
+    border: 1px white solid;
+    margin-left: 2.5rem;
+    border-radius: 25px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: .1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+
+
+   
+}
+.loginfooter:hover{
+
+    
+        display: flex;
+    flex-direction: row;
+
+    margin-top: 1rem;
+    min-width: 10rem;
+    max-width: 10rem;
+    height: 4rem;
+    background-color: #79bfee;;
+    border: 1px white solid;
+    margin-left: 2.5rem;
+    border-radius: 25px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: .1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+
+
+   
+}
+.TextFooter{
+    margin-right: auto;
+    margin-left: 23%;
+    color: white;
+    font-size: 2rem;
+    text-align: justify;
+    text-align: left;
+}
+.TextFooter p:first-child{
+    
+    font-size: 2.5rem;
+    
+}
+.TextFooter p:nth-child(2){
+    
+    font-size: 1.5rem;
+    
+}
+@media  screen and (max-width:966px) {
+    .TextFooter{
+   visibility: hidden;
+   position: absolute;
+}
+
+.loginfooter{
+
+    
+    display: flex;
+    flex-direction: row;
+   
+    margin-top: 1rem;
+           min-width: 46%;
+    max-width: 46%;
+    height: 4rem;
+    background-color:transparent;
+    border: 1px white solid;
+   margin-right: auto;
+
+    border-radius: 25px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: .1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+
+
+   
+}
+.SignupBtmfooter{
+
+    
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 1rem;
+      min-width: 50%;
+    max-width: 50%;
+    height: 4rem;
+    background-color: rgb(255,255,255);
+    margin-right: auto;
+    
+    border-radius: 25px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: .1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+
+
+   
+}
+.loginfooter:hover{
+
+     display: flex;
+    flex-direction: row;
+   
+    margin-top: 1rem;
+           min-width: 46%;
+    max-width: 46%;
+    height: 4rem;
+
+    border: 1px white solid;
+   margin-right: auto;
+
+    border-radius: 25px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: .1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #79bfee;;
+   
+
+
+   
+}
+  
+    
+}

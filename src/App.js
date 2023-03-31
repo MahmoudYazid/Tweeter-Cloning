@@ -4,6 +4,7 @@ import './App.css';
 import RightSide from './RightSide/RightSide';
 import LeftSide from "./LeftSide/leftSide";
 import  CenterPart from './CenterPart/CenterPart'
+import Footer from './footer/footer'
 function App() {
   return (
     <div className="MainPage">
@@ -12,7 +13,7 @@ function App() {
         <CenterPart></CenterPart>
         <RightSide></RightSide>
       </div>
-      <div className="footer"></div>
+      <Footer></Footer>
     </div>
   );
 }

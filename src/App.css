@@ -3,7 +3,7 @@
   height: 100vh;
   background-color: rgb(0, 0, 0);
   display: grid;
-  grid-template-rows: 4fr .5fr   ;
+  grid-template-rows: 4fr .4fr   ;
   
 
 }
