@@ -9,10 +9,10 @@ export default function CenterTop() {
   const changeColourOnFocus =()=>{
     const MainDev = document.getElementById('SearchNav');
     MainDev.style.borderWidth="2px"
-    MainDev.style.borderColor = "blue";
+    MainDev.style.borderColor = "cornflowerblue";
     MainDev.style.borderStyle = "solid";
     const AiOutlineSearchControl = document.getElementById("AiOutlineSearch");
-    AiOutlineSearchControl.style.color="blue";
+    AiOutlineSearchControl.style.color = "cornflowerblue";
     if(Name==""){
       const output = (document.getElementById(
         "textSearchOutput"

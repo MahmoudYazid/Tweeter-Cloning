@@ -2,4 +2,7 @@
     background-color: green;
     display: grid;
     grid-template-rows: .9fr 5fr;
+     border-left: .05px white solid;
+     border-right: .05px white solid;
+    z-index: 1;
 }
