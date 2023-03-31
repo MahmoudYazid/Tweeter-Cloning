@@ -35,25 +35,14 @@ export default function CenterTop() {
     document.getElementById("textSearchOutput").style.visibility="hidden";
   }
   return (
-    <div className="SearchNav">
+    <div className="SearchNav" >
       <SlSocialTwitter className="SlSocialTwitter"></SlSocialTwitter>
-      <div
-        className="InputDiv"
-        id="SearchNav"
-       
-      onFocus={OnfocusOut}
-      >
+      <div className="InputDiv" id="SearchNav">
         <AiOutlineSearch
           className="AiOutlineSearch"
           id="AiOutlineSearch"
         ></AiOutlineSearch>
-        <div
-          className="inputContainer"
-          id="inputContainer"
-        
-          
-          onBlur={OnfocusOut}
-        >
+        <div className="inputContainer" id="inputContainer" >
           <input
             type="text"
             className="TextInput"
